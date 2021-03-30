@@ -14,9 +14,6 @@ if (inputValue === '') {
 }
 
 //crossing out an item 
-/*function crossOut() {
-    li.addClass('strike');
-}*/
 li.on('dblclick', function(){
     li.addClass('strike');
 });
